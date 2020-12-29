@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chris-on-code/beginner-tailwind-site.git"
+    "url": "git+https://github.com/AcarMeel/tailwind-beginner-site"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chris-on-code/beginner-tailwind-site/issues"
+    "url": "https://github.com/AcarMeel/tailwind-beginner-site/issues"
   },
-  "homepage": "https://github.com/chris-on-code/beginner-tailwind-site#readme",
+  "homepage": "https://github.com/AcarMeel/tailwind-beginner-site#readme",
   "dependencies": {
     "tailwindcss": "^1.8.0"
   },
