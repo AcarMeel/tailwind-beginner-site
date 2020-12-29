@@ -10,21 +10,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AcarMeel/tailwind-beginner-site"
+    "url": "git+https://github.com/chris-on-code/beginner-tailwind-site.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AcarMeel/tailwind-beginner-site/issues"
+    "url": "https://github.com/chris-on-code/beginner-tailwind-site/issues"
   },
-  "homepage": "https://github.com/AcarMeel/tailwind-beginner-site#readme",
+  "homepage": "https://github.com/chris-on-code/beginner-tailwind-site#readme",
   "dependencies": {
-    "tailwindcss": "^1.8.0"
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
   },
   "devDependencies": {
     "parcel-bundler": "latest",
-    "postcss-modules": "latest",
-    "autoprefixer": "^9.8.6"
+    "postcss-modules": "latest"
   }
 }
