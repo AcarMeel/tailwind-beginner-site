@@ -7,56 +7,92 @@
   </head>
 
   <body>
-    <!-- header/navigation === === === === === === === === -->
-    <div class="text-gray-600">
-      <div class="container mx-auto flex justify-between px-6 lg:px-0 py-6">
-        <!-- Left Section -->
-        <div class="flex items-center space-x-4">
-          <a href="#" class="font-bold text-2xl text-teal-800"
-            >Beginner Tailwind</a
-          >
-          <a href="#" class="hidden lg:inline-block hover:text-gray-900"
-            >About</a
-          >
-          <a href="#" class="hidden lg:inline-block hover:text-gray-900"
-            >What you'll learn</a
-          >
-          <a href="#" class="hidden lg:inline-block hover:text-gray-900"
-            >Pricing</a
-          >
-          <a href="#" class="hidden lg:inline-block hover:text-gray-900">FAQ</a>
+    <div class="bg-gradient-br from-white to-gray-300">
+        <!-- left circle -->
+        <div class="absolute top-0 left-0 transform translate-x-4 translate-y-4">
+            <div class="absolute w-64 h-64 bg-gradient-to-br from-teal-100 to-teal-200 rounded-full opacity-50"></div>
+            <div class="absolute ml-10 mt-10 w-64 h-64 bg-gradient-to-br from-purple-100 to-purple-200 rounded-full opacity-50"></div>
+            <div class="absolute ml-24 w-64 h-64 bg-gradient-to-br from-red-100 to-red-200 rounded-full opacity-50"></div>
         </div>
-        <!-- Right Section -->
-        <div class="flex items-center space-x-4">
-          <a href="#" class="hover:text-gray-900">Login</a>
-          <a
-            href="#"
-            class="hidden lg:inline-block p-3 bg-purple-300 text-purple-700 rounded shadow hover:bg-purple-200 hover:text-purple-700 hover:shadow-xl transition duration-500"
-            >Get the Course</a
-          >
+        <!-- right circle -->
+        <div class="hidden lg:block absolute top-0 right-0 mr-48 transform -translate-x-64 translate-y-64">
+            <div class="absolute w-64 h-64 bg-gradient-to-br from-teal-100 to-teal-200 rounded-full opacity-50"></div>
+            <div class="absolute ml-10 mt-10 w-64 h-64 bg-gradient-to-br from-purple-100 to-purple-200 rounded-full opacity-50"></div>
+            <div class="absolute ml-24 w-64 h-64 bg-gradient-to-br from-red-100 to-red-200 rounded-full opacity-50"></div>
+        </div>
+    <!-- header/navigation === === === === === === === === -->
+      <div class="relative text-gray-600">
+        <div class="container mx-auto flex justify-between px-6 lg:px-0 py-6">
+          <!-- Left Section -->
+          <div class="flex items-center space-x-4">
+            <a href="#" class="font-bold text-2xl text-teal-800"
+              >Beginner Tailwind</a
+            >
+            <a href="#" class="hidden lg:inline-block hover:text-gray-900"
+              >About</a
+            >
+            <a href="#" class="hidden lg:inline-block hover:text-gray-900"
+              >What you'll learn</a
+            >
+            <a href="#" class="hidden lg:inline-block hover:text-gray-900"
+              >Pricing</a
+            >
+            <a href="#" class="hidden lg:inline-block hover:text-gray-900"
+              >FAQ</a
+            >
+          </div>
+          <!-- Right Section -->
+          <div class="flex items-center space-x-4">
+            <a href="#" class="hover:text-gray-900">Login</a>
+            <a
+              href="#"
+              class="hidden lg:inline-block p-3 bg-purple-300 text-purple-700 rounded shadow hover:bg-purple-200 hover:text-purple-700 hover:shadow-xl transition duration-500"
+              >Get the Course</a
+            >
+          </div>
         </div>
       </div>
-    </div>
-    <!-- hero === === === === === === === === -->
-    <div class="">
-      <div class="container mx-auto px-6 py-24 lg:px-0 text-center">
-        <h1 class="mb-4">Beginner Tailwind</h1>
-        <p class="mb-8">
-          Make good looking designs quickly. All without a single line of custom
-          CSS
-        </p>
-        <a href="#" class="inline-block mb-32">Get the Course</a>
-        <div class="relative">
-          <img
-            src="https://i.imgur.com/wysbBMS.png"
-            alt="Teaser Image"
-            class=""
-          />
-          <div class="absolute top-0 right-0 transform translate-x-4 -translate-y-4 bg-yellow-100">
-            <p class="">
-              We'll create BeginnerTailwind.com (it's the site you're on now)
-            </p>
-            <p class="">We'll do it all without a single line of custom CSS!</p>
+      <!-- hero === === === === === === === === -->
+      <div class="relative">
+        <div class="container mx-auto px-6 py-24 lg:px-0 text-center">
+          <h1 class="mb-4 text-5xl lg:text-6xl font-extrabold">
+            <span
+              class="text-transparent bg-gradient-to-r bg-clip-text from-teal-400 to-teal-500"
+              >Beginner</span
+            >
+            <span
+              class="text-transparent bg-gradient-to-r bg-clip-text from-teal-500 via-purple-600 to-purple-500"
+              >Tailwind</span
+            >
+          </h1>
+          <p class="mb-8 text-lg lg:text-2xl text-gray-700">
+            Make good looking designs quickly. All without a single line of
+            custom CSS
+          </p>
+          <a
+            href="#"
+            class="inline-block mb-16 lg:mb-32 py-3 px-12 rounded bg-gradient-to-br from-purple-500 to-purple-700 text-purple-100 shadow-lg font-bold text-lg tracking-wide hover:to-purple-600 hover:shadow-2xl transition duration-500 hover:text-white"
+            >Get the Course</a
+          >
+          <div class="relative">
+            <img
+              src="https://i.imgur.com/wysbBMS.png"
+              alt="Teaser Image"
+              class="rounded-lg shadow-2xl border-4 border-purple-400"
+            />
+            <div
+              class="lg:absolute top-0 right-0 lg:transform translate-x-4 -translate-y-4 bg-yellow-100 text-left py-4 px-8 mt-8 lg:mt-0 rounded shadow-lg text-yellow-800 border-t-4 border-yellow-500"
+            >
+              <p class="">
+                <strong class="font-bold"
+                  >We'll create BeginnerTailwind.com</strong
+                >
+                <span class="opacity-50">(it's the site you're on now)</span>
+              </p>
+              <p class="">
+                We'll do it all without a single line of custom CSS!
+              </p>
+            </div>
           </div>
         </div>
       </div>
